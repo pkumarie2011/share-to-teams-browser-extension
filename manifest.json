@@ -1,0 +1,21 @@
+{
+  "name": "Share to Teams",
+  "description": "Share to Teams in 1-click!",
+  "version": "1.5",
+  "manifest_version": 3,
+  "permissions": ["activeTab","contextMenus"],	
+  "background": {
+            "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Share to Teams",
+    "default_icon": "images/Teams.256x256x32.png"
+   
+  },
+  "icons": {
+    "16": "images/Teams.16x16x32.png",
+    "32": "images/Teams.32x32x32.png",
+    "48": "images/Teams.48x48x32.png",
+    "128": "images/Teams.256x256x32.png"
+  }
+}
